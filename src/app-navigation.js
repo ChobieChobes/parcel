@@ -8,5 +8,10 @@ export const navigation = [
     text: 'Location',
     path: '/location',
     icon: 'globe'
+  }, 
+  {
+    text: 'Tree',
+    path: '/tree',
+    icon: 'group'
   }
   ];

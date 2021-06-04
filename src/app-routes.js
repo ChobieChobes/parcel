@@ -1,5 +1,5 @@
 import { withNavigationWatcher } from './contexts/navigation';
-import { HomePage, LocationPage } from './pages';
+import { HomePage, LocationPage, TreePage } from './pages';
 
 const routes = [
   {
@@ -9,6 +9,10 @@ const routes = [
   {
     path: '/location',
     component: LocationPage
+  }, 
+  {
+    path: '/tree',
+    component: TreePage
   }
 ];
 
