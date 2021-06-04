@@ -11,6 +11,15 @@ import { useScreenSizeClass } from './utils/media-query';
 import Content from './Content';
 import UnauthenticatedContent from './UnauthenticatedContent';
 
+import { setDefaultOptions, loadModules } from 'esri-loader';
+
+setDefaultOptions({ css: true });
+
+loadModules(['esri/views/MapView', 'esri/WebMap'])
+  .then(([MapView, WebMap]) => {
+    // the styles, script, and modules have all been loaded (in that order)
+  });
+
 function App() {
   const { user, loading } = useAuth();
 

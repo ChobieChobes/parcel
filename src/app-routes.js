@@ -1,5 +1,5 @@
 import { withNavigationWatcher } from './contexts/navigation';
-import { HomePage, LocationPage, TreePage } from './pages';
+import { HomePage, LocationPage, TreePage, LocationEsriPage } from './pages';
 
 const routes = [
   {
@@ -13,6 +13,10 @@ const routes = [
   {
     path: '/tree',
     component: TreePage
+  }, 
+  {
+    path: '/location-esri',
+    component: LocationEsriPage
   }
 ];
 

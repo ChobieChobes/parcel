@@ -5,13 +5,21 @@ export const navigation = [
     icon: 'home'
   },
   {
-    text: 'Location',
-    path: '/location',
-    icon: 'globe'
-  }, 
+    text: 'Locations',
+    icon: 'folder',
+    items: [  {
+      text: 'Bing',
+      path: '/location',
+      icon: 'globe'
+    }, 
+    {
+      text: 'Esri',
+      path: '/location-esri',
+      icon: 'globe'
+    }]
+  },
   {
     text: 'Tree',
     path: '/tree',
     icon: 'group'
-  }
-  ];
+  }];

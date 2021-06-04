@@ -3,18 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@esri/react-arcgis": "^5.1.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1",
-    "node-sass": "^4.11.0",
-    "react-router-dom": "^5.0.0",
-    "react-app-polyfill": "^1.0.0",
     "devextreme": "^20.2.4",
-    "devextreme-react": "20.2.3"
+    "devextreme-react": "20.2.3",
+    "esri-loader": "^3.1.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.2.0",
+    "react-app-polyfill": "^1.0.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
