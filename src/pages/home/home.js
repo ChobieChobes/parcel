@@ -1,6 +1,7 @@
 import React from 'react';
 import './home.scss';
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
   <React.Fragment>
     <h2 className={'content-block'}>Home</h2>
@@ -18,18 +19,35 @@ export default () => (
           </svg>
         </div>
 
-        <p>A proof of concept to explore the potential of tracking parcel deliveries with DevExtreme</p>
+        <p>Innovation to assess the feasibility of converting desktop app to a cloud ready web app.</p>
+        <ul>
+          <li>Entirely synthetic data</li>
+          <li>Parcel tracking</li>
+        </ul>
+        <p>What to see</p>
+        <ul>
+          <li>Responsive, Intuitive and Modern UI</li>
+          <li>Reimagined and Traditional view of the UI</li>
+          <li>Maps from Bing and ESRI</li>
+          <li>Touch UI on mobile/tablet</li>
+        </ul>
         <p>
           <span>This application was built using </span>
           <a href={'https://create-react-app.dev/'} target={'_blank'} rel={'noopener noreferrer'}>Create React App</a>
           <span> and </span>
           <a href={'https://js.devexpress.com/Documentation/Guide/Common/DevExtreme_CLI/'} target={'_blank'} rel={'noopener noreferrer'}>DevExtreme CLI</a>
-          <span> and includes the following DevExtreme components:</span>
         </p>
         <ul>
-          <li><a href={'https://js.devexpress.com/Documentation/Guide/UI_Components/DataGrid/Getting_Started_with_DataGrid/'} target={'_blank'} rel={'noopener noreferrer'}>DataGrid</a></li>
-          <li><a href={'https://js.devexpress.com/Documentation/Guide/Widgets/Form/Overview/'} target={'_blank'} rel={'noopener noreferrer'}>Form</a></li>
-          <li><a href={'https://js.devexpress.com/Documentation/Guide/Widgets/Drawer/Getting_Started_with_Navigation_Drawer/'} target={'_blank'} rel={'noopener noreferrer'}>Drawer</a></li>
+          <li>DevExpress vs DevExtreme</li>
+        </ul>
+        <p>Benefits:</p>
+        <ul>
+          <li>Accessibility</li>
+          <li>Fast updates/releases (no packaging)</li>
+          <li>Analytics on usage</li>
+          <li>Test Automation</li>
+          <li>No blockers to convert from desktop app to cloud ready app</li>
+          <li>Low side working</li>
         </ul>
 
       </div>
